@@ -1,8 +1,8 @@
-package com;
-	
+package com.cg.persn;
+
 public class Person {
-	public String name;
-	public float age;
+	private String name;
+	private float age;
 	
 	
 	public String getName() {
@@ -16,7 +16,7 @@ public class Person {
 	}
 	public void setAge(float age) {
 		this.age = age;
-	
 	}
-
+	
+ 
 }
